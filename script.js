@@ -1,3 +1,90 @@
+// factorialize
+/*function factorialize(num) {
+    if (num == 0) {
+        return -1;
+    } else if (num == 1) {
+        return 1;
+    } else {
+        return (num * factorialize(num - 1));
+    }
+}
+
+let ans = factorialize(5);
+console.log(ans);
+
+// recursive factorialize
+function factorialize2(num2) {
+    if (num2 === 0 || num2 === 1) {
+        return 1;
+    }
+    for (let i = num2 - 1; i > 1; i--) {
+        num2 = num2 * i;
+    }
+    return num2;
+}
+
+let ans2 = factorialize2(5);
+console.log(ans2);
+
+// while loop
+function factorialize3(num) {
+    var result = num;
+    if (num === 0 || num === 1) {
+        return 1;
+    }
+
+    while (num > 1) {
+        num--;
+        result *= num;
+    }
+    return result;
+}
+let ans3 = factorialize3(5);
+console.log(ans3);*/
+
+// if (num <= 1) {
+//     return 1;
+// } else {
+//     let seq = fib(num - 1) + fib(num - 2);
+//     return seq;
+// }
+
+
+// function fib(num) {
+//     let fibo = [0, 1];
+//     for (let i = 2; i <= num; i++) {
+//         fibo[i] = fibo[i - 1] + fibo[i - 2];
+//     }
+//     return fibo;
+// }
+
+// let result = fib(8);
+// console.log(result);
+
+// function fib(num) {
+//     let fibo = [0, 1];
+//     let i = 2;
+//     while (i <= num) {
+//         fibo[i] = fibo[i - 1] + fibo[i - 2];
+//         i++
+//     }
+//     return fibo;
+// }
+
+// let result = fib(10);
+// console.log(result);
+
+// function fib(n) {
+//     if(n < 2) {
+//         return n;
+//     } else {
+//          return fib(n - 1) + fib(n - 2);
+//     }
+// }
+
+// let result = fib(10);
+// console.log(result);
+
 // hacker rank problem solving
 // problem:Plus Minus
 
