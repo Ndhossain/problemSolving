@@ -197,3 +197,44 @@ console.log(ans3);*/
 //     let maxSum = sum - min;
 //     console.log(`${maxSum}, ${minSum}`)
 // }
+
+// leetcode problem solving
+
+// two-sum
+
+// var twoSum = function (nums, target) {
+//     let arrayOfIndex = []
+//     for (let i = 0; i < nums.length; i++) {
+//         for (let j = i + 1; j < nums.length; j++) {
+//             let sum = nums[i] + nums[j];
+//             if (sum == target) {
+//                 arrayOfIndex.push(i);
+//                 arrayOfIndex.push(j);
+//             }
+//         }
+//     }
+//     return arrayOfIndex;
+// };
+
+// let numbers = [2, 11, 7, 15];
+// let targets = 9;
+
+// var res = twoSum(numbers, targets);
+// console.log(res);
+
+var addTwoNumbers = function (l1, l2) {
+    let string1 = '';
+    let string2 = '';
+    for (let i = 0; i < l1.length; i++) {
+        let num = l1[i];
+        let numString = num.toString()
+        string1 += numString;
+    }
+    console.log(string1)
+        
+};
+
+let firstArray = [2, 4, 3];
+let secondArray = [5, 6, 4];
+let result = addTwoNumbers(firstArray, secondArray);
+// console.log(result)
