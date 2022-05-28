@@ -49,7 +49,6 @@ console.log(ans3);*/
 //     return seq;
 // }
 
-
 // function fib(num) {
 //     let fibo = [0, 1];
 //     for (let i = 2; i <= num; i++) {
@@ -222,19 +221,51 @@ console.log(ans3);*/
 // var res = twoSum(numbers, targets);
 // console.log(res);
 
-var addTwoNumbers = function (l1, l2) {
-    let string1 = '';
-    let string2 = '';
-    for (let i = 0; i < l1.length; i++) {
-        let num = l1[i];
-        let numString = num.toString()
-        string1 += numString;
-    }
-    console.log(string1)
-        
-};
+// var addTwoNumbers = function (l1, l2) {
+//     let val1 = 0;
+//     let val2 = 0;
+//     while (l1 || l2) {
+//         if (l1) {
+//             val1 = l1.val;
+//             l1 = l1.next;
+//             console.log(l1)
+//         }
+//     }
+// };
 
-let firstArray = [2, 4, 3];
-let secondArray = [5, 6, 4];
-let result = addTwoNumbers(firstArray, secondArray);
+// let firstArray = [2, 4, 3];
+// let secondArray = [5, 6, 4];
+// let result = addTwoNumbers(firstArray, secondArray);
 // console.log(result)
+
+// at first i have to convert the string in to a array
+// i have to iterate over the array and check the value that is it a dash/underscore
+// if there is a dash/underscore i have to skip that value
+// then i have to capitalize the dash/underscore's after value.
+// after that i have to return the value
+
+// function toCamelCase(str) {
+//   let result = "";
+//   let strArray;
+
+//   if (str !== "") {
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] === "-" || str[i] === "_") {
+//           strArray = str.split(str[i]);
+//         }
+//       }
+//   } else {
+//       return str;
+//   }
+
+//   for (let i = 0; i < strArray.length; i++) {
+//     if (i === 0) {
+//       result += strArray[i];
+//     } else {
+//       result += strArray[i].charAt(0).toUpperCase() + strArray[i].slice(1);
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(toCamelCase("the-stealth-warrior"));
