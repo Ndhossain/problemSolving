@@ -396,3 +396,41 @@ console.log(ans3);*/
 // };
 
 // merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3);
+
+// problem 17 : Palindrome Number.
+
+// var isPalindrome = function (x) {
+//   const reverseNum = x.toString().split("").reverse().join("");
+//   return parseInt(reverseNum) === parseInt(x) ? true : false;
+// };
+
+// console.log(isPalindrome(-121));
+
+// problem 18 : Roman to Integer.
+
+// var romanToInt = function (s) {
+//   const romanVals = {
+//     I: 1,
+//     V: 5,
+//     X: 10,
+//     L: 50,
+//     C: 100,
+//     D: 500,
+//     M: 1000,
+//   };
+//   let valSplit = s.split(``);
+//   valSplit.map((val, index) =>
+//     Object.entries(romanVals).forEach((value) => {
+//       value[0] === val ? (valSplit[index] = value[1]) : null;
+//     })
+//   );
+//   let result = valSplit[0];
+//   for (let i = 1; i < valSplit.length; i++) {
+//     const curr = valSplit[i];
+//     const pre = valSplit[i - 1];
+//     curr <= pre ? (result += curr) : (result = result - pre * 2 + curr);
+//   }
+//   return result;
+// };
+
+// console.log(romanToInt(`XMVIII`));
