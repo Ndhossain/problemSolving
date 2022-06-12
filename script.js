@@ -434,3 +434,25 @@ console.log(ans3);*/
 // };
 
 // console.log(romanToInt(`XMVIII`));
+
+// problem 18 : Running Sum of 1d Array.
+
+// var runningSum = function (nums) {
+//   console.log(nums.length);
+//   let current = nums[0];
+//   const result = [current];
+//   nums.forEach((element, index) => {
+//     if (index > 0) {
+//       current = current + element;
+//       result.push(current);
+//     }
+//   });
+//   return result;
+// };
+
+// console.log(
+//   runningSum([
+//     0, 63, -23, 60, -27, -73, -53, -5, 63, 68, -85, -82, -1, -11, 96, 19, 33,
+//     -72, -93, -44, -65, -60, 17, 95, -98, -43, -67,
+//   ])
+// );
