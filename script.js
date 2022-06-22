@@ -456,3 +456,32 @@ console.log(ans3);*/
 //     -72, -93, -44, -65, -60, 17, 95, -98, -43, -67,
 //   ])
 // );
+
+// problem 18 : Transpose Matrix.
+
+// var transpose = function (matrix) {
+//   let result = [];
+
+//   let highNo = 0;
+
+//   matrix.forEach((element) => {
+//     if (element.length > highNo) {
+//       highNo = element.length;
+//     }
+//   });
+
+//   for (let i = 0; i < highNo; i++) {
+//     result[i] = [];
+//     for (let j = 0; j < matrix.length; j++) {
+//       result[i].push(matrix[j][i] ? matrix[j][i] : null);
+//     }
+//   }
+//   return result;
+// };
+
+// console.log(
+//   transpose([
+//     [1, 2],
+//     [4, 7, 3],
+//   ])
+// );
